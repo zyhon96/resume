@@ -1,0 +1,121 @@
+*,
+a {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+}
+
+.left-part {
+  width: 30%;
+  background-color: black;
+  height: calc(155vh- 10px);
+}
+.flip-text {
+  color: white;
+  position: relative;
+  transform: rotate(-90deg);
+  padding-left: 15px;
+  padding-top: 10px;
+  font-family: "Cinzel", serif;
+}
+
+.bottom-text {
+  color: white;
+  padding-top: 60rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 3rem;
+  font-family: "Cinzel", serif;
+}
+.contact {
+  padding-bottom: 0.9rem;
+}
+.right-part {
+  width: 70%;
+  height: 100%;
+  padding: 60px 80px;
+}
+
+.about {
+  font-family: "Cinzel", serif;
+  padding-bottom: 2rem;
+}
+.about p {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.1rem;
+  line-height: 1.3rem;
+}
+
+.education {
+  font-family: "Cinzel", serif;
+  padding-bottom: 2rem;
+}
+
+.education p {
+  font-family: "Mon562tserrat", sans-serif;
+}
+
+.experience {
+  font-family: "Cinzel", serif;
+}
+.experience h4 {
+  letter-spacing: 0.3em;
+  font-weight: lighter;
+  padding-bottom: 0.8rem;
+}
+.experience-list {
+  font-family: "Montserrat", sans-serif;
+  padding-left: 15px;
+  padding-bottom: 2rem;
+}
+
+.AOE {
+  font-family: "Cinzel", serif;
+  padding-bottom: 2rem;
+}
+
+.AOE-list {
+  font-family: "Montserrat", sans-serif;
+  padding-left: 15px;
+}
+
+.project {
+  padding-bottom: 2rem;
+}
+
+.project h1 {
+  font-family: "Cinzel", serif;
+}
+
+.project-list {
+  padding-left: 15px;
+}
+
+.project-list ul a {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.certifications {
+  font-family: "Cinzel", serif;
+  padding-bottom: 2rem;
+}
+
+.certifications a {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.skills {
+  font-family: "Cinzel", serif;
+}
+
+.skills-list {
+  padding-left: 15px;
+  font-family: "Montserrat", s;
+}
